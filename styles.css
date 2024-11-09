@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+  color: black;
+  background-color: darkgrey;
+  text-align: center;
+}
+body{
+    background-image: url(https://www.bueren.de/de-wAssets/img/tourismus/Fotos-neu-M.-Rickling-etc/weblication/wThumbnails/97c0c951-503811ba@1152ll.jpg);
+background-color: cornsilk;
+background-blend-mode: normal;
+}
+.title{
+    padding: 20px;
+    background-color: bisque;
+    text-align: center;
+   color: brown;
+   margin-top: 1%;
+ margin-left: 600px;
+ margin-right: 600px;
+ margin-bottom: 110px;
+   border: 1px groove rgb(140, 195, 21);
+
+}
+tbody tr{
+    background-color: cornsilk;
+}
+thead th{
+    background-color: azure;
+}
+.tabel_1{
+    width: 70%;
+    border-top: 100px; 
+
+    border-style: none;
+    /* border-collapse: collapse; */
+   
+    margin: 20px
+   
+}
+
+
+th{ padding: 0%;
+    text-align: center;
+
+}
+td {
+    /* border: 1px solid #ddd; */
+    padding: 0%;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+ol{
+    margin: 10px;
+    border: 4px dotted black;
+    padding-left:300px;
+        /* list-style-type:"$" ; */
+        /* list-style-image: url(""); */
+        list-style-type: square;
+        color: blue;
+        background-color: rgb(171, 210, 113);
+}        
+h3{
+   margin-left: 500px;
+   margin-right: 500px;
+    background-color: aliceblue;
+    background-position: 100px 100px;
+    text-align: center;
+}
+
+ul{
+    margin: 100px 1100px 70px 200px;
+    list-style-image: url(https://cdn-icons-png.freepik.com/128/1256/1256650.png);
+    padding: 100px;
+    color: yellow;
+    background-color:purple ;
+    
+} 
+tbody tr:nth-child(2n+3){
+    background-color: cyan;
+}
+a{
+    margin: 10px 10px 210px 50px;
+    padding: 5px;
+    text-decoration: double;
+    text-align: center;
+    background-color: rgb(212, 222, 195);
+    font-size: large;
+   font-style: oblique;
+    color: rgb(1, 6, 6);
+    border: 3px solid red;
+}
+.story{
+    text-align: right;
+}
+.history{
+    font-style:italic ;
+    
+    text-align: center;
+    border: 5px groove white ;
+    background-color: rgb(220, 188, 110);
+    margin: 100px;
+    text-size-adjust: 40px;
+    font-size: 30px;
+    background-blend-mode: screen;
+
+}
+.heading{
+    font-style: arial;
+    font-variant: initial;
+}
